@@ -241,6 +241,7 @@ width:150px;
 /* Animations */
 
 .LTitle {
+  position:relative;
   left: -200px; /* Desplazar hacia la izquierda */
   opacity: 0;
   transition: 2s;
@@ -249,6 +250,7 @@ width:150px;
 
 /* Estilo para la entrada desde la izquierda */
 .RightTitle {
+  position:relative;
   left: 0px; /* Desplazar hacia la derecha */
   opacity: 1;
   transition: 2s;
@@ -256,6 +258,7 @@ width:150px;
 }
 
 .RTitle {
+  position:relative;
   right: -200px; /* Desplazar hacia la derecha */
   opacity: 0; /* Inicialmente invisible */
   transition: 2s;
@@ -264,6 +267,7 @@ width:150px;
 
 /* Estilo para la entrada desde la derecha */
 .LeftTitle {
+  position:relative;
   right: 0px; /* Desplazar hacia la izquierda */
   opacity: 1; /* Inicialmente invisible */
   transition: 2s;
@@ -271,6 +275,7 @@ width:150px;
 }
 
 .BTitle {
+  position:relative;
   bottom: -100px; /* Desplazar hacia abajo */
   opacity: 0; /* Inicialmente invisible */
   transition: 1s;
@@ -279,6 +284,7 @@ width:150px;
 
 /* Estilo para la entrada desde abajo */
 .TopTitle {
+  position:relative;
   bottom: 0px; /* Desplazar hacia arriba */
   opacity: 1;
   transition: 1s;
@@ -286,6 +292,7 @@ width:150px;
 }
 
 .TTitle {
+  position:relative;
   top: -100px; /* Desplazar hacia arriba */
   opacity: 0; /* Inicialmente invisible */
   transition: 1s;
@@ -294,6 +301,7 @@ width:150px;
 
 /* Estilo para la entrada desde arribaa */
 .BottomTitle {
+  position:relative;
   top: 0px; /* Desplazar hacia abajo */
   opacity: 1; 
   transition: 1s;
